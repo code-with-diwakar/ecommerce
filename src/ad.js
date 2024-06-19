@@ -2,7 +2,7 @@ let mainImage = document.querySelector(".main-pic");
 
 
 let thumbnails = document.querySelectorAll(".pic");
-console.log(thumbnails)
+
 
 
 
