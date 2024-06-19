@@ -594,14 +594,9 @@ video {
   gap: 2.5rem;
 }
 
-.bg-white {
+.bg-red-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.text-neutral-400 {
-  --tw-text-opacity: 1;
-  color: rgb(163 163 163 / var(--tw-text-opacity));
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .text-red-950 {
