@@ -1,28 +1,25 @@
-let a=document.getElementById("pic1");
-let b=document.getElementById("pic2");
-let c=document.getElementById("pic3");
-let d=document.getElementById("pic4");
-let e=document.getElementById("pic5");
+let mainImage = document.querySelector(".main-pic");
 
-b.addEventListener("click",()=>{
-   
-   a.setAttribute("src",b.getAttribute("src"))
-})
-b.addEventListener("click",()=>{
-   
-    a.setAttribute("src",b.getAttribute("src"))
- })
- 
- b.addEventListener("click",()=>{
-   
-    a.setAttribute("src",b.getAttribute("src"))
- })
- b.addEventListener("click",()=>{
-   
-    a.setAttribute("src",b.getAttribute("src"))
- })
- b.addEventListener("click",()=>{
-   
-    a.setAttribute("src",b.getAttribute("src"))
- })
- 
+
+let thumbnails = document.querySelectorAll(".pic");
+console.log(thumbnails)
+
+
+
+  thumbnails[0].addEventListener("mouseenter", function() {
+    mainImage.setAttribute("src", thumbnails[0].getAttribute("src"));
+  })
+  
+  thumbnails[1].addEventListener("mouseenter", function() {
+    mainImage.setAttribute("src", thumbnails[1].getAttribute("src"));
+  })
+
+  thumbnails[2].addEventListener("mouseenter", function() {
+    mainImage.setAttribute("src", thumbnails[2].getAttribute("src"));
+  })
+  thumbnails[3].addEventListener("mouseenter", function() {
+    mainImage.setAttribute("src", thumbnails[3].getAttribute("src"));
+  })
+  thumbnails[4].addEventListener("mouseenter", function() {
+    mainImage.setAttribute("src", thumbnails[4].getAttribute("src"));
+  })
